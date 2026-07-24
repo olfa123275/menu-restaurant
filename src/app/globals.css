@@ -1,10 +1,18 @@
 @import "tailwindcss";
 
+@theme {
+  --color-wine-950: #2b060f;
+  --color-wine-900: #3b0a16;
+  --color-gold-400: #d8ae62;
+  --color-gold-200: #f0dcb0;
+  --color-cream-100: #f6ecdd;
+  --color-cream-400: #c9a98a;
+}
+
 html {
-  background-color: #ffffff;
-  color: #111827;
+  background-color: var(--color-wine-950);
 }
 
 body {
-  background-color: #ffffff;
+  background-color: var(--color-wine-950);
 }
