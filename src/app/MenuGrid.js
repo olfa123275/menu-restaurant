@@ -12,7 +12,7 @@ export default function MenuGrid({ categories }) {
   const filtered = active === 'Tous' ? plats : plats.filter((p) => p.categorieNom === active)
 
   return (
-    <div className="px-5">
+    <div className="px-5 pt-6">
       <div className="flex gap-2 overflow-x-auto pb-4 mb-5 -mx-5 px-5 scrollbar-hide">
         {tabs.map((tab) => (
           <button

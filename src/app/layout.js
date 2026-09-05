@@ -14,8 +14,8 @@ const manrope = Manrope({
 })
 
 export const metadata = {
-  title: 'Le Bon Plat',
-  description: 'Menu du restaurant',
+  title: "D'Brunch",
+  description: 'Menu du café',
 }
 
 export default function RootLayout({ children }) {
@@ -24,15 +24,15 @@ export default function RootLayout({ children }) {
       <body className={`${fraunces.variable} ${manrope.variable} font-[family-name:var(--font-body)] bg-cream text-ink relative`}>
         <div className="fixed inset-0 -z-10 overflow-hidden pointer-events-none">
           <div
-            className="absolute -top-24 -left-24 w-80 h-80 bg-white/60 blur-3xl"
+            className="absolute -top-24 -left-24 w-80 h-80 bg-clay-100/60 blur-3xl"
             style={{ borderRadius: '58% 42% 35% 65% / 60% 45% 55% 40%' }}
           />
           <div
-            className="absolute top-1/3 -right-28 w-96 h-96 bg-white/50 blur-3xl"
+            className="absolute top-1/3 -right-28 w-96 h-96 bg-clay-100/50 blur-3xl"
             style={{ borderRadius: '40% 60% 65% 35% / 45% 55% 45% 55%' }}
           />
           <div
-            className="absolute bottom-0 left-6 w-72 h-72 bg-white/50 blur-3xl"
+            className="absolute bottom-0 left-6 w-72 h-72 bg-clay-100/50 blur-3xl"
             style={{ borderRadius: '50% 50% 35% 65% / 55% 40% 60% 45%' }}
           />
         </div>

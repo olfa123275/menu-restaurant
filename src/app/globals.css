@@ -1,12 +1,12 @@
 @import "tailwindcss";
 
 @theme {
-  --color-cream: #e3f3ef;
-  --color-ink: #2b2118;
-  --color-clay-600: #c1622d;
-  --color-clay-100: #f3d9c5;
-  --color-saffron-500: #e3a727;
-  --color-muted: #8a7a68;
+  --color-cream: #f7eee1;
+  --color-ink: #3e2723;
+  --color-clay-600: #8b5a2b;
+  --color-clay-100: #ead9c3;
+  --color-saffron-500: #c08552;
+  --color-muted: #9c8770;
 }
 
 html {
